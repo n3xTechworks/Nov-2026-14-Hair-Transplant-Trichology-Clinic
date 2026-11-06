@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trichology & Hair Restoration Insights · HairCare Clinic</title>
+  <meta name="description" content="Clinical articles and surgical guides on Sapphire FUE, DHI Choi implantation, shock loss biology, exosome therapy, female diffuse thinning, and hairline geometry.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header Navigation -->
+  <header id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="HairCare Clinic Home">
+        <img src="favicon.svg" alt="HairCare logo" width="32" height="32">
+        <span class="brand-name">HairCare</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <div class="nav-item nav-item--dropdown">
+          <button class="nav-link dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+            Home <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="index.html" class="dropdown-item">Home 1 · Surgical Excellence</a>
+            <a href="home-2.html" class="dropdown-item">Home 2 · Advanced Trichology</a>
+          </div>
+        </div>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="treatments.html" class="nav-link">Treatments</a>
+        <a href="doctors.html" class="nav-link">Doctors</a>
+        <a href="results.html" class="nav-link">Results</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button data-theme-toggle aria-label="Toggle dark/light theme" title="Toggle contrast theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+
+        <button data-dir-toggle aria-label="Toggle text direction LTR/RTL" title="Toggle RTL direction">
+          <span class="dir-txt" aria-hidden="true"><span class="d-to-rtl">RTL</span><span class="d-to-ltr">LTR</span></span>
+        </button>
+
+        <a href="contact.html#book" class="btn btn-primary" data-nav-cta>
+          Book<span class="cta-long"> consultation</span>
+        </a>
+
+        <button class="mobile-nav-toggle" aria-label="Open menu" data-menu-toggle>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer (strictly hidden by default) -->
+    <div data-mobile-menu hidden style="display: none; visibility: hidden;">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home 1 · Surgical Excellence</a></li>
+        <li><a href="home-2.html" class="mobile-nav-link">Home 2 · Advanced Trichology</a></li>
+        <li><a href="about.html" class="mobile-nav-link">About</a></li>
+        <li><a href="treatments.html" class="mobile-nav-link">Treatments</a></li>
+        <li><a href="doctors.html" class="mobile-nav-link">Doctors</a></li>
+        <li><a href="results.html" class="mobile-nav-link">Results</a></li>
+        <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hx hx--inner" aria-labelledby="hx-title">
+      <img class="hx-bg" src="images/blog-hero-library-1600.webp" srcset="images/blog-hero-library-800.webp 800w, images/blog-hero-library-1600.webp 1600w" sizes="100vw" width="1600" height="1067" alt="Medical research library and trichology reference repository at HairCare Clinic" fetchpriority="high">
+      <div class="hx-shade" aria-hidden="true"></div>
+      <div class="container hx-content">
+        <span class="badge badge--gold">Clinical Research & Education</span>
+        <h1 id="hx-title">Trichology and Follicular Restoration Insights</h1>
+        <p class="hx-lead">Peer-reviewed clinical guides written by board-certified hair surgeons and dermatologic trichologists. Learn the biology of graft survival, aftercare protocols, and mathematical hairline design.</p>
+        <div class="hx-chips"><span class="badge">ISHRS Protocols</span><span class="badge">Evidence-Based Aftercare</span><span class="badge">10-Year Case Audits</span></div>
+        <div class="hx-ctas"></div>
+      </div>
+    </section>
+
+    
+
+    <!-- Category Filters & Live Search Bar -->
+    <section class="section section--tight" style="padding-bottom: 16px;">
+      <div class="container">
+        <div class="blog-toolbar">
+          <!-- Category Chips -->
+          <div id="blogFilters" class="filter-tabs blog-chips" role="group" aria-label="Filter articles by topic" data-blog-filters>
+            <button type="button" class="btn btn-sm btn-primary active filter-btn" data-filter="all">All Topics</button>
+            <button type="button" class="btn btn-sm btn-secondary filter-btn" data-filter="Transplant Science">Transplant Science</button>
+            <button type="button" class="btn btn-sm btn-secondary filter-btn" data-filter="Trichology & PRP">Trichology & PRP</button>
+            <button type="button" class="btn btn-sm btn-secondary filter-btn" data-filter="Aftercare & Recovery">Aftercare & Recovery</button>
+            <button type="button" class="btn btn-sm btn-secondary filter-btn" data-filter="Hair Loss Prevention">Hair Loss Prevention</button>
+          </div>
+
+          <!-- Real-Time Search Input -->
+          <div class="blog-search">
+            <label for="blogSearch" class="sr-only">Search articles</label>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input type="search" id="blogSearch" placeholder="Search articles, authors or topics" class="form-input">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts Grid (6 Complete Unique Cards) -->
+    <section class="section" style="padding-top: 24px; padding-bottom: clamp(48px, 6vw, 72px);">
+      <div class="container">
+        <div id="blogGrid" class="grid grid-3 blog-grid" data-blog-grid>
+          <!-- Card 1: Sapphire vs DHI -->
+          <div class="card blog-card" data-category="Transplant Science">
+            <div class="card-media">
+              <img src="images/blog-cover-1-800.webp" class="blog-cover" alt="Sapphire FUE surgical blades compared with Choi direct implantation pens" width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="badge badge--copper">Transplant Science</span>
+              <h3 class="card-title"><a href="blog-post-1.html">Sapphire FUE vs DHI: Choosing the Right Follicular Implantation Technique</a></h3>
+              <p class="card-desc">A scientific comparative analysis of gemstone sapphire micro-channel opening versus Choi direct pen implantation for density and trauma minimization.</p>
+              <div class="author-box" style="display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+                <img src="images/author-elif-aydan-160.webp" class="author-photo" alt="Dr. Elif Aydan" width="160" height="160" loading="lazy" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover;">
+                <div>
+                  <div class="author-name" style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary);">Dr. Elif Aydan</div>
+                  <div style="font-size: 0.75rem; color: var(--text-secondary);">Lead Surgeon & Founder</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Shock Loss Biology -->
+          <div class="card blog-card" data-category="Aftercare & Recovery">
+            <div class="card-media">
+              <img src="images/blog-cover-2-800.webp" class="blog-cover" alt="Microscopic illustration of follicular shock loss and anagen cycle recovery" width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="badge badge--gold">Aftercare & Recovery</span>
+              <h3 class="card-title"><a href="blog-post-2.html">Understanding Shock Loss: The Biology of Post-Operative Telogen Effluvium</a></h3>
+              <p class="card-desc">Why follicular grafts temporarily shed between weeks 3 and 8, the cellular timeline of hair stem cell activation, and evidence-based post-op care.</p>
+              <div class="author-box" style="display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+                <img src="images/author-sophie-lin-160.webp" class="author-photo" alt="Dr. Sophie Lin" width="160" height="160" loading="lazy" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover;">
+                <div>
+                  <div class="author-name" style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary);">Dr. Sophie Lin</div>
+                  <div style="font-size: 0.75rem; color: var(--text-secondary);">Clinical Trichology Specialist</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Exosomes Science -->
+          <div class="card blog-card" data-category="Trichology & PRP">
+            <div class="card-media">
+              <img src="images/blog-cover-3-800.webp" class="blog-cover" alt="Centrifuged platelet-rich plasma and exosome biological growth factor matrix" width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="badge badge--copper">Trichology & PRP</span>
+              <h3 class="card-title"><a href="blog-post-3.html">Exosome Therapy & Autologous Growth Factors in Graft Longevity</a></h3>
+              <p class="card-desc">How intracellular extracellular vesicles and platelet-rich plasma accelerate neo-vascularization and optimize graft survival above 98%.</p>
+              <div class="author-box" style="display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+                <img src="images/author-marcus-vance-160.webp" class="author-photo" alt="Dr. Marcus Vance" width="160" height="160" loading="lazy" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover;">
+                <div>
+                  <div class="author-name" style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary);">Dr. Marcus Vance</div>
+                  <div style="font-size: 0.75rem; color: var(--text-secondary);">Regenerative Medicine Director</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Female Pattern Thinning -->
+          <div class="card blog-card" data-category="Hair Loss Prevention">
+            <div class="card-media">
+              <img src="images/blog-cover-4-800.webp" class="blog-cover" alt="Clinical evaluation of Ludwig scale female pattern diffuse hair thinning" width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="badge badge--gold">Hair Loss Prevention</span>
+              <h3 class="card-title"><a href="blog-post-4.html">Female Pattern Hair Loss: Ludwig Scale Diagnosis and Non-Shaven Restoration</a></h3>
+              <p class="card-desc">Clinical diagnosis of diffuse androgenetic alopecia in women, hormonal and ferritin evaluation, and direct follicular placement without shaving.</p>
+              <div class="author-box" style="display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+                <img src="images/author-amira-hassan-160.webp" class="author-photo" alt="Dr. Amira Hassan" width="160" height="160" loading="lazy" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover;">
+                <div>
+                  <div class="author-name" style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary);">Dr. Amira Hassan</div>
+                  <div style="font-size: 0.75rem; color: var(--text-secondary);">Dermatology & Scalp Health Lead</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Hairline Geometry -->
+          <div class="card blog-card" data-category="Transplant Science">
+            <div class="card-media">
+              <img src="images/blog-cover-5-800.webp" class="blog-cover" alt="Laser level calipers mapping golden ratio geometric hairline parameters" width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="badge badge--copper">Transplant Science</span>
+              <h3 class="card-title"><a href="blog-post-5.html">The Mathematics of Natural Hairlines: Geometry, Macro-Irregularities & Caliber</a></h3>
+              <p class="card-desc">Why unnatural pluggy hairlines fail: golden ratio facial proportion rules, single-hair micro-feathering, and 45-degree angle implantation.</p>
+              <div class="author-box" style="display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+                <img src="images/author-oliver-chen-160.webp" class="author-photo" alt="Dr. Oliver Chen" width="160" height="160" loading="lazy" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover;">
+                <div>
+                  <div class="author-name" style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary);">Dr. Oliver Chen</div>
+                  <div style="font-size: 0.75rem; color: var(--text-secondary);">Senior Hairline Architect</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6: 10-Year Graft Survival -->
+          <div class="card blog-card" data-category="Trichology & PRP">
+            <div class="card-media">
+              <img src="images/blog-cover-6-800.webp" class="blog-cover" alt="Macro photographic audit of graft density retention over ten clinical years" width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="badge badge--gold">Trichology & PRP</span>
+              <h3 class="card-title"><a href="blog-post-6.html">10-Year Graft Survival Metrics: Long-Term Follicular Viability Under ISHRS Protocols</a></h3>
+              <p class="card-desc">Longitudinal clinical cohort study tracking 1,200 transplant patients over a decade to measure lifetime donor preservation and retention.</p>
+              <div class="author-box" style="display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+                <img src="images/author-liam-sterling-160.webp" class="author-photo" alt="Dr. Liam Sterling" width="160" height="160" loading="lazy" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover;">
+                <div>
+                  <div class="author-name" style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary);">Dr. Liam Sterling</div>
+                  <div style="font-size: 0.75rem; color: var(--text-secondary);">Clinical Research Fellow</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Functional Pagination Container -->
+        <div id="blogPagination" class="pagination" data-blog-pagination style="display: flex; justify-content: center; gap: 8px; margin-top: clamp(36px, 5vw, 56px);"></div>
+      </div>
+    </section>
+
+    <!-- Consultation CTA -->
+    <section class="section--alt section" style="text-align: center; padding: clamp(48px, 6vw, 72px) 0;">
+      <div class="container">
+        <h2 style="margin-bottom: 16px;">Have questions about your hair loss pattern?</h2>
+        <p style="color: var(--text-secondary); max-width: 620px; margin: 0 auto 28px;">Our clinical team provides honest, science-backed guidance. Send your scalp photographs for a personalized medical review.</p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="contact.html#book" class="btn btn-primary">Book Confidential Consultation</a>
+          <a href="https://wa.me/12025550147" class="btn btn-secondary" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="siteFooter">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand" aria-label="HairCare Clinic Home">
+            <img src="favicon.svg" alt="HairCare logo" width="32" height="32" class="brand-logo">
+            <span class="brand-name">HairCare</span>
+          </a>
+          <p>Board-certified hair restoration and clinical trichology, committed to honest surgery and documented graft survival.</p>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Nispetiye Cad. No: 42, Levent, Istanbul</span></li>
+            <li class="footer-contact-item"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><a href="tel:+12025550147">+1 202 555 0147</a></li>
+            <li class="footer-contact-item"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:support@yourbrand.com">support@yourbrand.com</a></li>
+            <li class="footer-contact-item"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Mon-Sat, 9:00 to 18:00</span></li>
+          </ul>
+        </div>
+        <nav class="footer-col" aria-label="Quick links">
+          <h4>Quick links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home 1</a>
+            <a href="home-2.html">Home 2</a>
+            <a href="about.html">About</a>
+            <a href="treatments.html">Treatments</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="results.html">Results</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </nav>
+        <nav class="footer-col" aria-label="Patient information">
+          <h4>Patient info</h4>
+          <div class="footer-links">
+            <a href="contact.html#book">Book a consultation</a>
+            <a href="contact.html#faq">Frequently asked questions</a>
+            <a href="treatments.html#portfolio">Treatment options</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+        </nav>
+        <div class="footer-col">
+          <h4>Accredited care</h4>
+          <ul class="footer-badges">
+            <li>ISHRS member surgeons</li>
+            <li>JCI accredited facility</li>
+            <li>ISO 9001 certified</li>
+            <li>Ministry of Health licensed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 HairCare Clinic &amp; Trichology Center. All rights reserved.</div>
+        <div class="footer-socials" aria-label="HairCare on social media"><a href="https://www.facebook.com/" class="social-link" aria-label="Facebook" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v7h4v-7h3l1-4h-4V8z"/></svg></a><a href="https://www.instagram.com/" class="social-link" aria-label="Instagram" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></a><a href="https://www.youtube.com/" class="social-link" aria-label="YouTube" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3z"/></svg></a><a href="https://www.linkedin.com/" class="social-link" aria-label="LinkedIn" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg></a></div>
+      </div>
+    </div>
+  </footer> 
+
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>

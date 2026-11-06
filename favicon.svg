@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="darkEspresso" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#231916"/>
+      <stop offset="100%" stop-color="#110B09"/>
+    </linearGradient>
+    <linearGradient id="honeyGold" x1="0%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#C7922E"/>
+      <stop offset="60%" stop-color="#F0C767"/>
+      <stop offset="100%" stop-color="#FDF2D0"/>
+    </linearGradient>
+    <linearGradient id="careAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8BF6C"/>
+      <stop offset="100%" stop-color="#9E6F18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Espresso rounded square container -->
+  <rect x="1" y="1" width="46" height="46" rx="11" fill="url(#darkEspresso)" stroke="#422F26" stroke-width="1.5"/>
+  
+  <!-- Subtle gold inner accent border -->
+  <rect x="2.5" y="2.5" width="43" height="43" rx="9.5" fill="none" stroke="#D4A84B" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Delicate Hair Follicle / Care Emblem -->
+  <!-- Left follicle curve -->
+  <path d="M24 37 C17 33 13 26 14 18 C15 11 20 8 23.5 7.5 C21 11.5 22 17 24 21.5 C25 18 26.5 12 24.5 7.5 C28 8 33 11 34 18 C35 26 31 33 24 37 Z" fill="url(#honeyGold)" fill-opacity="0.25" stroke="url(#honeyGold)" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Graceful central strand sweeping upwards -->
+  <path d="M24 38 C24 31 29 23 29 15 C29 10 26 7 24 6 C22 10 20 16 20 22 C20 29 24 35 24 38 Z" fill="url(#honeyGold)"/>
+
+  <!-- Golden honey dot (papilla root of life) -->
+  <circle cx="24" cy="38.5" r="3.5" fill="url(#careAccent)"/>
+  <circle cx="24" cy="38.5" r="2.2" fill="#FFF1CE"/>
+</svg>
