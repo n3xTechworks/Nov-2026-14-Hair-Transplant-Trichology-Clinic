@@ -2615,3 +2615,17 @@ details.faq-item[open] .faq-answer { animation: fadeDown .35s ease both; }
 html[dir="rtl"] .d-to-ltr{display:inline}
 /* keep English CTA words in reading order in RTL */
 html[dir="rtl"] [data-nav-cta]{direction:ltr}
+/* Home 1 surgical team cards (only this section): centred profile card - taller portrait, centred text,
+   credential pills, role above a divider, full-width button. Rows stay aligned through the shared subgrid. */
+.home-team .card-media{height:280px;min-height:280px;max-height:280px}
+.home-team .card-media img{object-position:center 22%}
+.home-team .card-body{text-align:center}
+.home-team .card-body>*{justify-self:center}
+.home-team .card-badge{margin-bottom:14px}
+.home-team .card-title{font-size:1.25rem;margin-bottom:10px}
+.home-team .card-desc{font-size:.9375rem;max-width:30ch;margin-inline:auto}
+.home-team .card-meta{border-top:0;padding:0;margin:0 0 16px;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px}
+.home-team .card-meta li{padding:5px 12px;border-radius:var(--r-pill);background:var(--surface-alt);border:1px solid var(--border-subtle);color:var(--text-primary);font-size:.78125rem;font-weight:600;gap:6px}
+.home-team .card-meta svg{color:var(--brand-gold)}
+.home-team .card-price{justify-self:stretch;justify-content:center;padding-top:14px;border-top:1px solid var(--border-subtle);margin-bottom:16px}
+.home-team .card-body>.btn{justify-self:stretch;width:100%}
